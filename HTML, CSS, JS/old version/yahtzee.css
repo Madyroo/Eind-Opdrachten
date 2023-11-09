@@ -1,0 +1,53 @@
+body {
+	background-color: #e6f2ff;
+}
+
+h1 {
+	text-align: center;
+	font-size: 48px;
+	color: #1a1a1a;
+}
+
+.dice-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dice {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 5px solid #1a1a1a;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.button {
+	display: block;
+	margin: 20px auto;
+	font-size: 24px;
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+#roll-count {
+	color: #1a1a1a;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.disabled:active {
+	opacity: 0.5;
+	cursor: not-allowed;
+}

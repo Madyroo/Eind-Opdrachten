@@ -1,0 +1,94 @@
+body {
+	object-fit: cover;
+	font-family: 'Nunito', sans-serif;
+	background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+	height: 100vh;
+}
+
+.center {
+	display: block;
+	margin-left: 25%;
+	width: 35%;
+	padding-bottom: 20px;
+}
+
+
+.dice-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.dice-container img {
+	margin-left: 14px;
+	transition: 0.7s;
+}
+
+.dice-container img:hover {
+	transform: scale(1.08);
+	transition: 0.7s;
+	box-shadow: 0 0 11px rgba(33, 33, 33, 0.747);
+}
+
+.dice {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	border: 5px solid #1a1a1a;
+	background-color: pink;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+
+}
+
+.button {
+	display: block;
+	margin: 20px auto;
+	font-size: 24px;
+	background-color: #1a1a1a;
+	background-image: linear-gradient(to top left, #d400ff 0%, #bf2e34 100%);
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	border: 2.8px solid #1a1a1a;
+}
+
+#roll-count {
+	color: #1a1a1a;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.disabled:active {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.scoreDisplay {
+	text-align: center;
+}
+
+table {
+	width: 16%;
+	float: right;
+
+}
+
+table,
+td {
+	border: solid black 1px;
+
+}
+
+.dice-container img.selected {
+	border: 2px solid rgba(241, 238, 3, 0.801);
+}
